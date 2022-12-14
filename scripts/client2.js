@@ -115,7 +115,7 @@ let mesh;
 
 const loader = new GLTFLoader();
 loader.load(
-  "../../assets/Kakapo.glb",
+  "./../assets/Kakapo.glb",
   function ( gltf ) {
     mesh = gltf.scene;
     mesh.scale.set(1.5,1.5,1.5);
@@ -324,7 +324,7 @@ loader.load(
   // Position plane geometry
   plane8.position.set(-20 , 31 , 17);
   plane8.rotation.set(0,2.5,0);
-  // Place plane geometry 
+  // Place plane geometry
   scene.add( plane8 );
 
   // Add Text under models
