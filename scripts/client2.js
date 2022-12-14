@@ -1,7 +1,7 @@
 // Art 109 Three.js Demo Site
 // client7.js
 // A three.js scene which uses planes and texture loading to generate a scene with images which can be traversed with basic WASD and mouse controls, this scene is full screen with an overlay.
-import { GLTFLoader } from "./src/GLTFLoader.js";
+import { GLTFLoader } from "../src/GLTFLoader.js";
 
 // Import required source code
 // Import three.js core
