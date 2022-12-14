@@ -130,7 +130,7 @@ let mesh1;
 
 const loader1 = new GLTFLoader();
 loader.load(
-  "../../assets/ground2.glb",
+  "./assets/ground2.glb",
   function ( gltf ) {
     mesh1 = gltf.scene;
     mesh1.scale.set(5,5,5);
@@ -220,7 +220,7 @@ loader.load(
 
   // First Image (red and purple glitch map)
   // Load image as texture
-  const texture = new THREE.TextureLoader().load( '../assets/grass1.png' );
+  const texture = new THREE.TextureLoader().load( './assets/grass1.png' );
   // Immediately use the texture for material creation
   const material = new THREE.MeshBasicMaterial( { map: texture, side: THREE.DoubleSide, transparent: true} );
   // Create plane geometry
@@ -235,7 +235,7 @@ loader.load(
 
   // Second Image (Text with image and white background)
   // Load image as texture
-  const texture2 = new THREE.TextureLoader().load( '../assets/grass2.png' );
+  const texture2 = new THREE.TextureLoader().load( './assets/grass2.png' );
   // immediately use the texture for material creation
   const material2 = new THREE.MeshBasicMaterial( { map: texture2, side: THREE.DoubleSide, transparent: true} );
   // Create plane geometry
@@ -249,7 +249,7 @@ loader.load(
   scene.add( plane2 );
 
 
-  const texture3 = new THREE.TextureLoader().load( '../assets/grass3.png' );
+  const texture3 = new THREE.TextureLoader().load( './assets/grass3.png' );
   // immediately use the texture for material creation
   const material3 = new THREE.MeshBasicMaterial( { map: texture3, side: THREE.DoubleSide, transparent: true} );
   // Create plane geometry
@@ -263,7 +263,7 @@ loader.load(
   // Place plane geometry
   scene.add( plane3 );
 
-  const texture4 = new THREE.TextureLoader().load( '../assets/grass4.png' );
+  const texture4 = new THREE.TextureLoader().load( './assets/grass4.png' );
   // immediately use the texture for material creation
   const material4 = new THREE.MeshBasicMaterial( { map: texture4, side: THREE.DoubleSide, transparent: true} );
   // Create plane geometry
@@ -275,7 +275,7 @@ loader.load(
   // Place plane geometry
   scene.add( plane4 );
 
-  const texture5 = new THREE.TextureLoader().load( '../assets/forest.png' );
+  const texture5 = new THREE.TextureLoader().load( './assets/forest.png' );
   // immediately use the texture for material creation
   const material5 = new THREE.MeshBasicMaterial( { map: texture5, side: THREE.DoubleSide, transparent: true} );
   // Create plane geometry
@@ -288,7 +288,7 @@ loader.load(
   // Place plane geometry
   scene.add( plane5 );
 
-  const texture6 = new THREE.TextureLoader().load( '../assets/forest2.png' );
+  const texture6 = new THREE.TextureLoader().load( './assets/forest2.png' );
   // immediately use the texture for material creation
   const material6 = new THREE.MeshBasicMaterial( { map: texture6, side: THREE.DoubleSide, transparent: true} );
   // Create plane geometry
@@ -301,7 +301,7 @@ loader.load(
   // Place plane geometry
   scene.add( plane6 );
 
-  const texture7 = new THREE.TextureLoader().load( '../assets/green.png' );
+  const texture7 = new THREE.TextureLoader().load( './assets/green.png' );
   // immediately use the texture for material creation
   const material7 = new THREE.MeshBasicMaterial( { map: texture7, side: THREE.DoubleSide, transparent: true} );
   // Create plane geometry
@@ -314,7 +314,7 @@ loader.load(
   // Place plane geometry
   scene.add( plane7 );
 
-  const texture8 = new THREE.TextureLoader().load( '../assets/green.png' );
+  const texture8 = new THREE.TextureLoader().load( './assets/green.png' );
   // immediately use the texture for material creation
   const material8 = new THREE.MeshBasicMaterial( { map: texture8, side: THREE.DoubleSide, transparent: true} );
   // Create plane geometry
