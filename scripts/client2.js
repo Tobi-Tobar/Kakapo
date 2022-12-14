@@ -329,7 +329,7 @@ loader.load(
 
   // Add Text under models
   const loader3 = new FontLoader();
-         loader3.load( '../../assets/helvetiker_regular.typeface.json', function ( font ) {
+         loader3.load( './assets/helvetiker_regular.typeface.json', function ( font ) {
            // Define font color
            const color = 0xCEC88D;
            // Define font material
