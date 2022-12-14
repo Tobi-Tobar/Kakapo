@@ -115,7 +115,7 @@ let mesh;
 
 const loader = new GLTFLoader();
 loader.load(
-  "../assets/Kakapo.glb",
+  "./assets/Kakapo.glb",
   function ( gltf ) {
     mesh = gltf.scene;
     mesh.scale.set(1.5,1.5,1.5);
